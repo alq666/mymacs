@@ -1,0 +1,6 @@
+(global-set-key (kbd "C-c f") 'find-file-in-project)
+(global-set-key (kbd "C-c m") 'magit-status)
+(global-set-key (kbd "C-c e") 'eshell)
+(global-set-key (kbd "C-c p") 'python-shell)
+(global-set-key (kbd "C-c x") 'shell)
+(global-set-key (kbd "C-c t") 'ansi-term)
