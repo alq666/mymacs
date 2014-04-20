@@ -1,9 +1,6 @@
 (load-file "~/.emacs.d/better-defaults.el")
-
-;; moar packages
-(package-initialize)
-(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
-(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+(load-file "~/.emacs.d/packages.el")
+(load-file "~/.emacs.d/keys.el")
 
 ;; quick helper to prettify json
 (defun json-format ()
@@ -13,4 +10,3 @@
     )
   )
 
-(load-file "~/.emacs.d/keys.el")
