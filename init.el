@@ -17,9 +17,10 @@
  ;; If there is more than one, they won't work right.
  '(font-use-system-font t)
  '(magit-push-arguments nil)
+ '(org-agenda-files (quote ("~/Documents/org-mode/daily.org")))
  '(package-selected-packages
    (quote
-    (s nlinum markdown-mode js2-mode go-errcheck go-eldoc go-direx go-autocomplete gist csv-mode ack)))
+    (magit s nlinum markdown-mode js2-mode go-errcheck go-eldoc go-direx go-autocomplete gist csv-mode ack)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces

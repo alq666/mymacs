@@ -4,3 +4,4 @@
 (global-set-key (kbd "C-c p") 'python-shell)
 (global-set-key (kbd "C-c x") 'shell)
 (global-set-key (kbd "C-c t") 'ansi-term)
+(global-set-key (kbd "C-c a") 'org-agenda)
