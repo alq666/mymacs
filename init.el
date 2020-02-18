@@ -1,4 +1,3 @@
-
 ;; Added by Package.el.  This must come before configurations of
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
@@ -24,9 +23,10 @@
  ;; If there is more than one, they won't work right.
  '(font-use-system-font t)
  '(magit-push-arguments nil)
+ '(org-agenda-files (quote ("~/Documents/org-mode/daily.org")))
  '(package-selected-packages
    (quote
-    (nlinum markdown-mode magit-gh-pulls magit-find-file magit-filenotify js2-mode go-errcheck go-eldoc go-direx go-autocomplete gist csv-mode ack 2048-game)))
+    (magit s nlinum markdown-mode js2-mode go-errcheck go-eldoc go-direx go-autocomplete gist csv-mode ack)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces
