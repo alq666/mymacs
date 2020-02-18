@@ -1,3 +1,10 @@
+
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
+(package-initialize)
+
 (load-file "~/.emacs.d/better-defaults.el")
 (load-file "~/.emacs.d/packages.el")
 (load-file "~/.emacs.d/keys.el")
@@ -17,6 +24,9 @@
  ;; If there is more than one, they won't work right.
  '(font-use-system-font t)
  '(magit-push-arguments nil)
+ '(package-selected-packages
+   (quote
+    (nlinum markdown-mode magit-gh-pulls magit-find-file magit-filenotify js2-mode go-errcheck go-eldoc go-direx go-autocomplete gist csv-mode ack 2048-game)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces
