@@ -1,7 +1,3 @@
-;; Added by Package.el.  This must come before configurations of
-;; installed packages.  Don't delete this line.  If you don't want it,
-;; just comment it out by adding a semicolon to the start of the line.
-;; You may delete these explanatory comments.
 (package-initialize)
 
 (load-file "~/.emacs.d/better-defaults.el")
@@ -23,7 +19,9 @@
  ;; If there is more than one, they won't work right.
  '(font-use-system-font t)
  '(magit-push-arguments nil)
- '(org-agenda-files (quote ("~/Documents/org-mode/daily.org")))
+ '(org-directory (quote "~/Documents/org-mode"))
+ '(org-agenda-files (concat org-directory "/agenda.org"))
+ '(org-default-notes-file (concat org-directory "/notes.org"))
  '(package-selected-packages
    (quote
     (magit s nlinum markdown-mode js2-mode go-errcheck go-eldoc go-direx go-autocomplete gist csv-mode ack)))
