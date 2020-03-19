@@ -1,3 +1,5 @@
+(package-initialize)
+
 (load-file "~/.emacs.d/better-defaults.el")
 (load-file "~/.emacs.d/packages.el")
 (load-file "~/.emacs.d/keys.el")

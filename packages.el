@@ -1,4 +1,3 @@
-;; Add extra repositories
 (defun ensure-package-installed (&rest packages)
   "Assure every package is installed, ask for installation if it’s not.
 
