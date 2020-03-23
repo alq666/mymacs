@@ -1,0 +1,7 @@
+auto-save-list/*
+backups/*
+elpa/*
+/ido.last
+/places
+/eshell/history
+/.#ido.last
