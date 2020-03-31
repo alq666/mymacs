@@ -19,7 +19,8 @@
  ;; If there is more than one, they won't work right.
  '(font-use-system-font t)
  '(magit-push-arguments nil)
- '(org-agenda-files (quote ("~/Documents/org-mode/daily.org")))
+ '(org-agenda-files (quote ("~/org-mode/daily.org")))
+ '(org-default-notes-file (quote ("~/org-mode/daily.org")))
  '(org-log-done (quote note))
  '(package-selected-packages
    (quote
