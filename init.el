@@ -19,12 +19,12 @@
  ;; If there is more than one, they won't work right.
  '(font-use-system-font t)
  '(magit-push-arguments nil)
- '(org-agenda-files '("~/org-mode/"))
+ '(org-agenda-files (quote ("~/org-mode/")))
  '(org-default-notes-file (quote "~/org-mode/daily.org"))
  '(org-log-done (quote note))
  '(package-selected-packages
    (quote
-    (magit s nlinum markdown-mode js2-mode go-errcheck go-eldoc go-direx go-autocomplete gist csv-mode ack)))
+    (htmlize org-roam magit s nlinum markdown-mode js2-mode go-errcheck go-eldoc go-direx go-autocomplete gist csv-mode ack)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces
