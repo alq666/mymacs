@@ -22,4 +22,4 @@ Return a list of installed packages or nil for every skipped package."
 (package-initialize)
 
 ;; list of dependencies here
-(mapcar 'ensure-package-installed '(ack csv-mode gist go-autocomplete auto-complete htmlize go-direx direx go-eldoc go-errcheck go-mode js2-mode gh logito markdown-mode nlinum pcache popup s))
+(mapcar 'ensure-package-installed '(ack csv-mode gist auto-complete htmlize direx js2-mode gh markdown-mode nlinum pcache popup s))
