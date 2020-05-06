@@ -24,7 +24,7 @@
  '(org-log-done (quote note))
  '(package-selected-packages
    (quote
-    (org-agenda-property org-beautify-theme org-bullets org-pomodoro org-ref org-sidebar htmlize org-roam magit s nlinum markdown-mode js2-mode gist csv-mode ack)))
+    (deft org-agenda-property org-beautify-theme org-bullets org-pomodoro org-ref org-sidebar htmlize org-roam magit s nlinum markdown-mode js2-mode go-errcheck go-eldoc go-direx go-autocomplete gist csv-mode ack)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces
