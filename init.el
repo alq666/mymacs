@@ -24,9 +24,10 @@
  '(org-log-done (quote note))
  '(package-selected-packages
    (quote
-    (deft org-agenda-property org-beautify-theme org-bullets org-pomodoro org-ref org-sidebar htmlize org-roam magit s nlinum markdown-mode js2-mode go-errcheck go-eldoc go-direx go-autocomplete gist csv-mode ack)))
+    (deft org-agenda-property org-beautify-theme org-bullets org-pomodoro org-ref org-sidebar htmlize org-roam magit s nlinum markdown-mode gist csv-mode ack)))
  '(show-paren-mode t)
- '(tool-bar-mode nil))
+ '(tool-bar-mode nil)
+ '(org-agenda-follow-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
