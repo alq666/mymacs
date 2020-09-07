@@ -1,5 +1,3 @@
-(package-initialize)
-
 (load-file "~/.emacs.d/better-defaults.el")
 (load-file "~/.emacs.d/packages.el")
 (load-file "~/.emacs.d/keys.el")
@@ -19,7 +17,10 @@
  ;; If there is more than one, they won't work right.
  '(font-use-system-font t)
  '(magit-push-arguments nil)
- '(org-agenda-files (quote ("~/org-mode/")))
+ '(org-agenda-files
+   (quote
+    ("~/thoughts/daily.org" "~/thoughts/top-of-mind.org")))
+ '(org-agenda-follow-mode t t)
  '(org-default-notes-file (quote "~/org-mode/daily.org"))
  '(org-log-done (quote note))
  '(package-selected-packages
@@ -27,10 +28,6 @@
     (deft org-agenda-property org-beautify-theme org-bullets org-pomodoro org-ref org-sidebar htmlize org-roam magit s nlinum markdown-mode gist csv-mode ack)))
  '(show-paren-mode t)
  '(tool-bar-mode nil)
- '(org-agenda-follow-mode t))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(default ((t (:family "Inconsolata" :foundry "unknown" :slant normal :weight normal :height 109 :width normal)))))
+ '(org-clock-persist 'history))
+
+(org-clock-persistence-insinuate)
