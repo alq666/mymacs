@@ -1,6 +1,5 @@
 (add-to-list 'package-archives
              '("melpa-stable" . "https://stable.melpa.org/packages/"))
-(package-initialize)
 
 (defun ensure-package-installed (&rest packages)
   "Assure every package is installed, ask for installation if it’s not.
