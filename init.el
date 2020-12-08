@@ -18,8 +18,7 @@
  '(font-use-system-font t)
  '(magit-push-arguments nil)
  '(org-agenda-files
-   (quote
-    ("~/thoughts/daily.org" "~/thoughts/top-of-mind.org")))
+   '("~/thoughts/"))
  '(org-agenda-follow-mode t t)
  '(org-default-notes-file (quote "~/org-mode/daily.org"))
  '(org-log-done (quote note))
