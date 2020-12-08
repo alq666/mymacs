@@ -30,3 +30,4 @@
  '(org-clock-persist 'history))
 
 (org-clock-persistence-insinuate)
+(load-file "~/.emacs.d/org-mode-defaults.el")
