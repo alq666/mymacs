@@ -14,12 +14,12 @@ PRIORITY may be one of the characters ?A, ?B, or ?C."
       '(("c" "Simple agenda view"
          ((tags "PRIORITY=\"A\""
                 ((org-agenda-skip-function '(org-agenda-skip-entry-if 'todo 'done))
-                 (org-agenda-overriding-header "High-priority:")))
-            (agenda "" ((org-agenda-span 1)))
+                 (org-agenda-overriding-header ">>> HIGH <<<")))
+          (agenda "" ((org-agenda-span 1))
+                      (org-agenda-overriding-header "Today:"))
             (alltodo ""
                      ((org-agenda-skip-function
                      '(or (my-org-skip-subtree-if-priority ?A)
                           (org-agenda-skip-if nil '(scheduled deadline))))
-                      (org-agenda-overriding-header "ALL normal priority tasks:"))))
-         ((org-agenda-compact-blocks t)))))
-
+                      (org-agenda-overriding-header ">>> NORMAL <<<"))))
+         )))
