@@ -17,17 +17,21 @@
  ;; If there is more than one, they won't work right.
  '(font-use-system-font t)
  '(magit-push-arguments nil)
- '(org-agenda-files
-   '("~/thoughts/"))
+ '(org-agenda-files '("~/thoughts/"))
  '(org-agenda-follow-mode t t)
- '(org-default-notes-file (quote "~/org-mode/daily.org"))
- '(org-log-done (quote note))
+ '(org-clock-persist 'history)
+ '(org-default-notes-file '"~/thoughts/daily.org")
+ '(org-log-done 'note)
  '(package-selected-packages
-   (quote
-    (deft org-agenda-property org-beautify-theme org-bullets org-pomodoro org-ref org-sidebar htmlize org-roam magit s nlinum markdown-mode gist csv-mode ack)))
+   '(deft org-agenda-property org-beautify-theme org-bullets org-pomodoro org-ref org-sidebar htmlize org-roam magit s nlinum markdown-mode gist csv-mode ack))
  '(show-paren-mode t)
- '(tool-bar-mode nil)
- '(org-clock-persist 'history))
+ '(tool-bar-mode nil))
 
 (org-clock-persistence-insinuate)
 (load-file "~/.emacs.d/org-mode-defaults.el")
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
