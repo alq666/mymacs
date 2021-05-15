@@ -16,3 +16,4 @@ Return a list of installed packages or nil for every skipped package."
 
 ;; make sure to have downloaded archive description.
 (package-refresh-contents)
+(ensure-package-installed 'org-journal)
