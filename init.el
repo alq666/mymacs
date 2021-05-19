@@ -23,7 +23,7 @@
  '(org-default-notes-file '"~/thoughts/daily.org")
  '(org-log-done 'note)
  '(package-selected-packages
-   '(deft org-agenda-property org-beautify-theme org-bullets org-pomodoro org-ref org-sidebar htmlize org-roam magit s nlinum markdown-mode gist csv-mode ack))
+   '(org-alert org-autolist org-sticky-header org-super-agenda org-trello deft org-agenda-property org-beautify-theme org-bullets org-pomodoro org-ref org-sidebar htmlize org-roam magit s nlinum markdown-mode gist csv-mode ack))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 
