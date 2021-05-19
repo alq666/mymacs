@@ -15,7 +15,7 @@ PRIORITY may be one of the characters ?A, ?B, or ?C."
          ((tags "PRIORITY=\"A\""
                 ((org-agenda-skip-function '(org-agenda-skip-entry-if 'todo 'done))
                  (org-agenda-overriding-header ">>> HIGH <<<")))
-          (agenda "" ((org-agenda-span 1))
+          (agenda "" ((org-agenda-span 7))
                       (org-agenda-overriding-header "Today:"))
           (alltodo ""
                    ((org-agenda-skip-function
