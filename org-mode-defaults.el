@@ -12,11 +12,11 @@ PRIORITY may be one of the characters ?A, ?B, or ?C."
 
 (setq org-agenda-custom-commands
       '(("c" "Simple agenda view"
-         ((tags "PRIORITY=\"A\""
+         ((agenda "" ((org-agenda-span 7))
+                  (org-agenda-overriding-header "Today:"))
+          (tags "PRIORITY=\"A\""
                 ((org-agenda-skip-function '(org-agenda-skip-entry-if 'todo 'done))
                  (org-agenda-overriding-header ">>> HIGH <<<")))
-          (agenda "" ((org-agenda-span 7))
-                      (org-agenda-overriding-header "Today:"))
           (alltodo ""
                    ((org-agenda-skip-function
                      '(or (my-org-skip-subtree-if-priority ?A)
