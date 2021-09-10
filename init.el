@@ -17,13 +17,8 @@
  ;; If there is more than one, they won't work right.
  '(font-use-system-font t)
  '(magit-push-arguments nil)
- '(org-agenda-files '("~/thoughts/"))
- '(org-agenda-follow-mode t t)
- '(org-clock-persist 'history)
- '(org-default-notes-file '"~/thoughts/daily.org")
- '(org-log-done 'note)
  '(package-selected-packages
-   '(magit org-alert org-autolist org-sticky-header org-super-agenda org-trello deft org-agenda-property org-beautify-theme org-bullets org-pomodoro org-ref org-sidebar htmlize org-roam s nlinum markdown-mode gist csv-mode ack))
+   '(flycheck rust-mode magit deft org-pomodoro org-ref org-sidebar htmlize))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 

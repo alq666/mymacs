@@ -23,3 +23,10 @@ PRIORITY may be one of the characters ?A, ?B, or ?C."
                           (org-agenda-skip-if nil '(scheduled deadline))))
                     (org-agenda-overriding-header ">>> NORMAL <<<"))))
          )))
+
+(custom-set-variables
+ '(org-agenda-files '("~/thoughts/"))
+ '(org-agenda-follow-mode t t)
+ '(org-clock-persist 'history)
+ '(org-default-notes-file '"~/thoughts/daily.org")
+ '(org-log-done 'note))
