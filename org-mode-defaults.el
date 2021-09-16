@@ -10,6 +10,13 @@ PRIORITY may be one of the characters ?A, ?B, or ?C."
         subtree-end
       nil)))
 
+(setq org-directory "~/thoughts/")
+
+(setq org-capture-templates
+      `(("i" "Inbox" entry  (file "inbox.org")
+         ,(concat "* TODO %?\n"
+                  "%U"))))
+
 (setq org-agenda-custom-commands
       '(("c" "Simple agenda view"
          ((agenda "" ((org-agenda-span 7))
@@ -23,3 +30,11 @@ PRIORITY may be one of the characters ?A, ?B, or ?C."
                           (org-agenda-skip-if nil '(scheduled deadline))))
                     (org-agenda-overriding-header ">>> NORMAL <<<"))))
          )))
+
+(custom-set-variables
+ '(org-agenda-files '("~/thoughts/"))
+ '(org-agenda-follow-mode t t)
+ '(org-clock-persist 'history)
+ '(org-default-notes-file '"~/org-mode/daily.org")
+ '(org-log-done 'note)
+)
