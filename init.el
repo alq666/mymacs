@@ -30,3 +30,6 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+(when (version<= "26.0.50" emacs-version)
+  (global-display-line-numbers-mode))
