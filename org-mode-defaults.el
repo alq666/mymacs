@@ -26,7 +26,7 @@ PRIORITY may be one of the characters ?A, ?B, or ?C."
 
 (custom-set-variables
  '(org-agenda-files '("~/thoughts/"))
- '(org-agenda-follow-mode t t)
+ '(org-agenda-follow-mode t)
  '(org-clock-persist 'history)
  '(org-default-notes-file '"~/thoughts/daily.org")
  '(org-log-done 'note))
