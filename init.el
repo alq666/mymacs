@@ -23,8 +23,13 @@
  ;; If there is more than one, they won't work right.
  '(font-use-system-font t)
  '(magit-push-arguments nil)
+ '(org-agenda-files '("~/thoughts/"))
+ '(org-agenda-follow-mode t t)
+ '(org-clock-persist 'history)
+ '(org-default-notes-file '"~/org-mode/daily.org")
+ '(org-log-done 'note)
  '(package-selected-packages
-   '(magit-find-file ponylang-mode deft org-agenda-property org-beautify-theme org-bullets org-pomodoro org-ref org-sidebar htmlize s nlinum markdown-mode gist csv-mode))
+   '(org magit-find-file ponylang-mode deft org-agenda-property org-beautify-theme org-bullets org-pomodoro org-ref org-sidebar htmlize s nlinum markdown-mode gist csv-mode))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 
