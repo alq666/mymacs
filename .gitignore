@@ -6,3 +6,6 @@ elpa/*
 /eshell/history
 /eshell/lastdir
 /.#ido.last
+bookmarks
+/org-clock-save.el
+/transient/
