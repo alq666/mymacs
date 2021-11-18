@@ -6,3 +6,4 @@ elpa/*
 /eshell/history
 /eshell/lastdir
 /.#ido.last
+/org-roam.db
