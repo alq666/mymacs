@@ -1,3 +1,11 @@
+(custom-set-variables
+ '(org-agenda-files '("~/thoughts/"))
+ '(org-agenda-follow-mode t t)
+ '(org-clock-persist 'history)
+ '(org-default-notes-file '"~/org-mode/inbox.org")
+ '(org-log-done 'note)
+)
+
 ;; from https://blog.aaronbieber.com/2016/09/24/an-agenda-for-life-with-org-mode.html
 (defun my-org-skip-subtree-if-priority (priority)
   "Skip an agenda subtree if it has a priority of PRIORITY.
@@ -31,10 +39,3 @@ PRIORITY may be one of the characters ?A, ?B, or ?C."
                     (org-agenda-overriding-header ">>> NORMAL <<<"))))
          )))
 
-(custom-set-variables
- '(org-agenda-files '("~/thoughts/"))
- '(org-agenda-follow-mode t t)
- '(org-clock-persist 'history)
- '(org-default-notes-file '"~/org-mode/daily.org")
- '(org-log-done 'note)
-)

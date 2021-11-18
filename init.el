@@ -29,11 +29,10 @@
  '(org-default-notes-file '"~/org-mode/daily.org")
  '(org-log-done 'note)
  '(package-selected-packages
-   '(org magit-find-file ponylang-mode deft org-agenda-property org-beautify-theme org-bullets org-pomodoro org-ref org-sidebar htmlize s nlinum markdown-mode gist csv-mode))
+   '(org-roam org magit-find-file ponylang-mode deft org-agenda-property org-beautify-theme org-bullets org-pomodoro org-ref org-sidebar htmlize s nlinum markdown-mode gist csv-mode))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 
-(org-clock-persistence-insinuate)
 (load-file "~/.emacs.d/org-mode-defaults.el")
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
