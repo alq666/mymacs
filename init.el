@@ -1,3 +1,4 @@
+;; Load'em up
 (load-file "~/.emacs.d/better-defaults.el")
 (load-file "~/.emacs.d/packages.el")
 (load-file "~/.emacs.d/keys.el")
@@ -17,8 +18,13 @@
  ;; If there is more than one, they won't work right.
  '(font-use-system-font t)
  '(magit-push-arguments nil)
+ '(org-agenda-files '("~/thoughts/"))
+ '(org-agenda-follow-mode t)
+ '(org-clock-persist 'history)
+ '(org-default-notes-file '"~/thoughts/daily.org")
+ '(org-log-done 'note)
  '(package-selected-packages
-   '(flycheck rust-mode magit deft org-pomodoro org-ref org-sidebar htmlize))
+   '(markdown-mode flycheck rust-mode magit deft org-pomodoro org-ref org-sidebar htmlize))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 
