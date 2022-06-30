@@ -24,9 +24,10 @@
  '(org-default-notes-file '"~/thoughts/daily.org")
  '(org-log-done 'note)
  '(package-selected-packages
-   '(markdown-mode flycheck rust-mode magit deft org-pomodoro org-ref org-sidebar htmlize))
+   '(org-roam markdown-mode flycheck rust-mode magit deft org-pomodoro org-ref org-sidebar htmlize))
  '(show-paren-mode t)
- '(tool-bar-mode nil))
+ '(tool-bar-mode nil)
+ '(org-roam-db-autosync-mode t))
 
 (org-clock-persistence-insinuate)
 (load-file "~/.emacs.d/org-mode-defaults.el")
