@@ -25,7 +25,7 @@
  '(org-log-done 'note)
  '(org-roam-db-autosync-mode t)
  '(package-selected-packages
-   '(org-roam markdown-mode flycheck rust-mode magit deft org-pomodoro org-ref org-sidebar htmlize))
+   '(sqlite sqlite3 emacsql-sqlite ipython-shell-send org-roam markdown-mode flycheck rust-mode magit deft org-pomodoro org-ref org-sidebar htmlize))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 
